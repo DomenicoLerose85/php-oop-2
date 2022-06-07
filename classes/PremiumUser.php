@@ -5,9 +5,16 @@ class PremiumUser extends User{
 
     protected $discount
 
-    public function  setDiscount(){
-        
+    public function setDiscount($_discount){
+        $this->discount = $_discount;
+    }
+    
+    public function getDiscount(){
+        return $this->discount;
     }
 
 
+
 }
+
+?>

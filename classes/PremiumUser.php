@@ -3,7 +3,7 @@
 require_once __DIR__ . '/User.php';
 class PremiumUser extends User{
 
-    protected $discount
+    protected $discount;
 
     public function setDiscount($_discount){
         $this->discount = $_discount;
@@ -16,5 +16,3 @@ class PremiumUser extends User{
 
 
 }
-
-?>

@@ -3,12 +3,12 @@ class User
 {
 
     protected $name;
-    protected $surName;
+    protected $SurName;
 
-    function __construct($_name, $_surName,)
+    function __construct($_name, $_SurName)
     {
         $this->name = $_name;
-        $this->genre = $_surName;
+        $this->genre = $_SurName;
     }
 
     public function setName($_name)
@@ -21,13 +21,13 @@ class User
         return $this->name;
     }
 
-    public function setSurnaName($_surName)
+    public function setSurnaName($_SurName)
     {
-        $this->surName = $_surName;
+        $this->SurName = $_SurName;
     }
 
     public function getSurnaName()
     {
-        return $this->surName;
+        return $this->SurName;
     }
 }

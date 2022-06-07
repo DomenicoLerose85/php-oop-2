@@ -8,7 +8,7 @@ class User
     function __construct($_name, $_SurName)
     {
         $this->name = $_name;
-        $this->genre = $_SurName;
+        $this->SurName = $_SurName;
     }
 
     public function setName($_name)
@@ -21,12 +21,12 @@ class User
         return $this->name;
     }
 
-    public function setSurnaName($_SurName)
+    public function setSurName($_SurName)
     {
         $this->SurName = $_SurName;
     }
 
-    public function getSurnaName()
+    public function getSurName()
     {
         return $this->SurName;
     }

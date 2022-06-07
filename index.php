@@ -7,7 +7,7 @@ require_once __DIR__ . '/classes/Accessories.php';
 
 $User1 = new User('Antonio', 'Surano');
 echo $User1->getName();
-echo $User1->getSurnaName();
+echo $User1->getSurName();
 
 
 $kibbles = new Products('SuperKibbles', 'Meat-Kibbles', 20);
@@ -16,10 +16,3 @@ echo '<br>';
 echo $kibbles->getType();
 echo '<br>';
 echo $kibbles->getPrice();
-
-
-
-// $kennel = new Accessories('Antonio', 'Surano');
-// $kennel = getType('Kennel');
-
-// var_dump($kennel);

@@ -1,12 +1,18 @@
 <?php
 
-require_once __DIR__ . '/Products.php';
-class Products extends User
+class Products
 {
 
     protected $name;
     protected $type;
     protected $price;
+
+    function __construct($_name, $_type, $_price)
+    {
+        $this->name = $_name;
+        $this->type = $_type;
+        $this->price = $_price;
+    }
 
     public function setName($_name)
     {
